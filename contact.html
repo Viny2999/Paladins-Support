@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" href="images/paladins-icon.png" type="image/x-icon" />
+	<title>Paladins Support</title>
+</head>
+
+<body>
+	<div class="App">
+		<header class="header">
+			<img src="images/logo.png" class="header-logo" alt="logo" />
+			<h1 class="header-title">Paladins Support</h1>
+		</header>
+
+		<div class="menu-content-wrapper">
+			<ul class="menu">
+				<h1 class="menu-title">MENU</h1>
+				<a class="item" href="index.html">
+					<li class="menu-item">Inicial</li>
+				</a>
+				<a class="item" href="about.html">
+					<li class="menu-item">Sobre o jogo</li>
+				</a>
+				<a class="item" href="gallery.html">
+					<li class="menu-item">Galeria</li>
+				</a>
+				<a class="item" href="character-gallery.html">
+					<li class="menu-item">Galeria de Personagens</li>
+				</a>
+				<a class="item" href="contact.html">
+					<li class="menu-item">Contato</li>
+				</a>
+			</ul>
+			<div class="content">
+				<div class="content-title">
+					Contato
+				</div>
+				<div class="content-form">
+					<form method="post" action="scripts/send.php" target="_blank">
+						<div class="form-input">
+							Nome:
+							<input type="text" size="30" name="nome" value="" placeholder="Seu nome" required>
+						</div>
+
+						<div class="form-input">
+							E-mail:
+							<input type="email" size="30" name="email" placeholder="seu@email.com" required>
+						</div>
+
+						<div class="form-input">
+							Nickname:
+							<input TYPE="text" size="30" name "nick" placeholder="Seu nick" required>
+						</div>
+
+						<div class="form-input">
+							<textarea cols="50" rows="10" name="msg" placeholder="Diga Críticas, Sugestões e Relatório de Bugs do Game" required></textarea>
+						</div>
+
+						<div class="form-button">
+							<input type="submit" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
